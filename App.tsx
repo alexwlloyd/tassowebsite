@@ -191,7 +191,7 @@ const About: React.FC = () => (
             </div>
             <div className="md:w-1/2 text-lg text-zinc-300 space-y-4 text-center md:text-left">
                 <p>
-                    L'Azienda Agricola "Il Tasso" nasce dalla passione per la natura e dal desiderio di riscoprire i sapori autentici della nostra terra. Situata tra le colline lussureggianti, la nostra fattoria è un'oasi di tranquillità dove coltiviamo con metodi naturali e sostenibili.
+                   ALEX and GAIA! L'Azienda Agricola "Il Tasso" nasce dalla passione per la natura e dal desiderio di riscoprire i sapori autentici della nostra terra. Situata tra le colline lussureggianti, la nostra fattoria è un'oasi di tranquillità dove coltiviamo con metodi naturali e sostenibili.
                 </p>
                 <p>
                     Ogni prodotto che offriamo è il frutto del nostro lavoro quotidiano, un impegno che portiamo avanti con dedizione per garantire freschezza e qualità. Crediamo in un'agricoltura che rispetta i cicli della natura e valorizza le tradizioni locali.
