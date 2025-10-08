@@ -98,10 +98,10 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
-              <a href="#home" className="flex items-center space-x-2">
-                <img className="h-14 w-14 rounded-full" src="/images/logo.png" alt="IL TASSO Logo" />
-                <span className="text-white text-3xl font-display tracking-wide ml-2">IL TASSO</span>
-              </a>
+            <a href="#home" className="flex items-center space-x-2">
+              <img className="h-14 w-14 rounded-full" src="/images/logo.png" alt="IL TASSO Logo" />
+              <span className="text-white text-3xl font-display tracking-wide">IL TASSO</span>
+            </a>
           </div>
           <div className="hidden md:flex items-center">
             <div className="ml-10 flex items-baseline space-x-4">
@@ -228,41 +228,31 @@ const Gallery: React.FC = () => (
 );
 
 const Products: React.FC = () => (
-  <Section id="products" title="Il Nostro Catalogo">
-    <div className="max-w-5xl mx-auto">
-      <div className="bg-zinc-800 rounded-lg overflow-hidden shadow-lg border border-zinc-700">
-        <div className="p-8 md:p-12 text-center">
-          <h3 className="text-3xl font-display text-yellow-400 mb-4">Freschezza Stagionale</h3>
-          <p className="text-zinc-300 text-lg md:text-xl leading-relaxed mb-8">
-            I nostri prodotti seguono il ritmo della natura. L'assortimento completo e aggiornato è sempre disponibile sul nostro catalogo WhatsApp. Clicca qui sotto per scoprire le prelibatezze di questa settimana!
-          </p>
-          {/* Embedded Google Sheet Catalog */}
-          <div className="mb-8 flex justify-center">
-            <iframe
-              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRp6mNCseP6_dEwsozYxJ6qQr0wfgOPjIosyb-LWgi-neVqI-fynIzvzGPKqAlc-YiDQltRgLspnWGV/pubhtml?gid=0&single=true"
-              title="Catalogo Prodotti"
-              width="60%"
-              height="600"
-              frameBorder="0"
-              style={{ border: '1px solid #eab308', borderRadius: '8px', background: '#18181b' }}
-              allowFullScreen
-            ></iframe>
-          </div>
-          <a 
-            href="https://wa.me/c/393489986824" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full text-xl inline-flex items-center space-x-3 transition-colors duration-300 shadow-lg transform hover:scale-105"
-          >
-            <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.371-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01s-.521.074-.792.372c-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.289.173-1.413z" />
-            </svg>
-            <span>Vedi Catalogo su WhatsApp</span>
-          </a>
+    <Section id="products" title="Il Nostro Catalogo">
+        <div className="max-w-5xl mx-auto">
+            <div className="bg-zinc-800 rounded-lg overflow-hidden shadow-lg border border-zinc-700">
+                
+                <div className="p-8 md:p-12 text-center">
+                    <h3 className="text-3xl font-display text-yellow-400 mb-4">Freschezza Stagionale</h3>
+                    <p className="text-zinc-300 text-lg md:text-xl leading-relaxed mb-8">
+                        I nostri prodotti seguono il ritmo della natura. L'assortimento completo e aggiornato è sempre disponibile sul nostro catalogo WhatsApp. Clicca qui sotto per scoprire le prelibatezze di questa settimana!
+                    </p>
+                    <a 
+                        href="https://wa.me/c/393489986824" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full text-xl inline-flex items-center space-x-3 transition-colors duration-300 shadow-lg transform hover:scale-105"
+                    >
+                        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.371-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01s-.521.074-.792.372c-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.289.173-1.413z" />
+                        </svg>
+                        <span>Vedi Catalogo su WhatsApp</span>
+                    </a>
+                </div>
+                
+            </div>
         </div>
-      </div>
-    </div>
-  </Section>
+    </Section>
 );
 
 const Order: React.FC = () => (
@@ -314,22 +304,19 @@ const Contact: React.FC = () => (
 );
 
 const Footer: React.FC = () => (
-  <footer className="bg-zinc-900 border-t border-zinc-700">
-    <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center text-zinc-400">
-      <div className="flex justify-center space-x-6 mb-4 items-center">
-  {/* Keep two logos in the footer, slightly larger */}
-  <img className="h-14 w-14 rounded-full" src="/images/wwoof.png" alt="Logo 1" />
-  <img className="h-14 w-14 rounded-full" src="/images/RMF.jpg" alt="Logo 2" />
-        {SOCIAL_LINKS.map(link => (
-          <a key={link.name} href={link.href} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:opacity-80 transition-opacity">
-            <span className="sr-only">{link.name}</span>
-            <link.icon className="h-8 w-8" />
-          </a>
-        ))}
-      </div>
-      <p>&copy; {new Date().getFullYear()} IL TASSO P.iva 04691360400.</p>
-    </div>
-  </footer>
+    <footer className="bg-zinc-900 border-t border-zinc-700">
+        <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center text-zinc-400">
+            <div className="flex justify-center space-x-6 mb-4">
+                {SOCIAL_LINKS.map(link => (
+                    <a key={link.name} href={link.href} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:opacity-80 transition-opacity">
+                        <span className="sr-only">{link.name}</span>
+                        <link.icon className="h-8 w-8" />
+                    </a>
+                ))}
+            </div>
+            <p>&copy; {new Date().getFullYear()} IL TASSO P.iva 04691360400.</p>
+        </div>
+    </footer>
 );
 
 // --- APP COMPONENT ---
